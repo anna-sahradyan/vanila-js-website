@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'Play';
+    font-weight: 400;
+    src: url('/mobile-first/fonts/play-regular-webfont.woff2') format('woff2'),
+    url('/mobile-first/fonts/play-regular-webfont.woff') format('woff'),
+    url('/mobile-first/fonts/play-Regular.ttf') format('truetype');
+
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Play';
+    font-weight: 700;
+    src: url('/mobile-first/fonts/play-regular-webfont.woff2') format('woff2'),
+    url('/mobile-first/fonts/play-regular-webfont.woff') format('woff'),
+    url('/mobile-first/fonts/play-Regular.ttf') format('truetype');
+
+    font-display: swap;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+.play-regular {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.play-bold {
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Play', sans-serif;
+}
+
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #28a745;
+    --bs-teal: #20c997;
+    --bs-cyan: #17a2b8;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #28a745;
+    --bs-info: #17a2b8;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #343a40;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+ul {
+    list-style-type: none;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: transparent;
+    caret-color: transparent;
+
+}
+
+button {
+    all: unset;
+    outline: initial;
+    border: initial;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0;
+    background-image: url('/mobile-first/images/fon_mob.webp');
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+
+main, header {
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+main {
+    flex-grow: 1;
+
+}
+
+
+footer {
+    margin-top: 75px;
+    box-sizing: border-box;
+}
+
+.pagecrm_container {
+    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+/*main*/
+
+@media (min-width: 640px) and (max-width: 980px) {
+    body {
+        background-image: url('/mobile-first/images/fon_desc.webp');
+    }
+
+    .pagecrm_container {
+        /*max-width:100%;*/
+        /*padding-left: 20px;*/
+        /*padding-right: 20px;*/
+    }
+
+    header, main {
+        /*margin-bottom: 120px;*/
+    }
+
+
+    footer {
+        margin-top: 120px;
+    }
+
+
+}
+
+@media (min-width: 980px) and (max-width: 1400px) {
+    /*.pagecrm_container {*/
+    /*    max-width: 100%;*/
+    /*    !*padding-left: 50px;*!*/
+    /*    !*padding-right: 50px;*!*/
+    /*}*/
+    body {
+        background-image: url('/mobile-first/images/fon_desc.webp');
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+    /*.pagecrm_container {*/
+    /*    max-width: 100%;*/
+    /*    !*padding-left: 100px;*!*/
+    /*    !*padding-right: 100px;*!*/
+    /*}*/
+    body {
+        background-image: url('/mobile-first/images/fon_desc.webp');
+    }
+}
+
+@media (min-width: 1600px) {
+    .pagecrm_container {
+        max-width: 1600px;
+    }
+
+    body {
+        background-image: url('/mobile-first/images/fon_desc.webp');
+    }
+}

@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 13" width="12" height="13">
+	<title>arrow</title>
+	<defs>
+		<image  width="12" height="11" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAALCAMAAAB8rpxtAAAAAXNSR0IB2cksfwAAADxQTFRFAAAA6d//7d//69//6tz/6t//6t//6N3/59//59z/6N3/6t//6t7/6d7/6d7/6t//39//79//6d7/6uH/p/ujEQAAABR0Uk5TAK9vQGCPv3AgYJCf7/+g7xAQ319DaxjjAAAAS0lEQVR4nD3NQQqAMAxE0flEpUa8/y1dVHDVgm01nUV4wyyChKDdHilBkVZ4Wvly2Fh+W7kJ5+QXYUXpjjIsnca0tsq0dmfxHK/0AuNWD0wXl7EcAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="1"/>
+</svg>

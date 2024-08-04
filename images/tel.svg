@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 20" width="26" height="20">
+	<title>tel</title>
+	<defs>
+		<image  width="26" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAUBAMAAABhbjCNAAAAAXNSR0IB2cksfwAAAA9QTFRFAAAA////////////////j0LeaAAAAAV0Uk5TAID/QL86DWV/AAAAmklEQVR4nE3PQQ7CIBAF0D/FrRWMa0x7g15AjRevR/AAtXIBSYldF5lBqSwmPGDmB8K6jKayVzuNImqA6qdDnUrMIqMRgyaRMencNVgotyM+9xqW0AW+9rNFkrTDv4+p1nR1jCm9Y6nOI7w4DRh5yqmHXFVDzttYSX1kSXNRK3Vx/7K3r+zsOUekmoGn1ves7QR1duP6W9ClxwfUrSfA7SMkbAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

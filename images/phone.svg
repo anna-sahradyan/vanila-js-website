@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>phone</title>
+	<defs>
+		<image  width="18" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASBAMAAACk4JNkAAAAAXNSR0IB2cksfwAAAA9QTFRF////////////AAAA////YdI5pAAAAAV0Uk5TQL//AICMqbf5AAAAa0lEQVR4nDXN2w2AIAwAwJYFwDqAygQaNnB/4wjiAo3wj1gDbdLk0ificq/wB+5xeZo8pFmFTvWOTeS0Rk53iSw0mYm6tqTdNeu9cPVBDOcs744gKrn6xNVjABsNO6iikvucJAvMLyjDDfwB4LQgZFgTWxEAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="3" y="3"/>
+</svg>

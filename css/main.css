@@ -1,0 +1,151 @@
+/*section-1- pagecrm_general_nav*/
+
+.pagecrm_general_nav {
+    padding: 12px 0 12px 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 100%;
+
+}
+
+.pagecrm_list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.pagecrm_list_item {
+    position: relative;
+    color: var(--bs-white);
+    width: max-content;
+    padding-right: 10px;
+}
+
+.pagecrm_list_item::after {
+    content: "";
+    position: absolute;
+    background-image: url("/mobile-first/images/arrow_l.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.pagecrm_list_item a {
+    margin-right: 10px;
+}
+
+/*section -2*/
+.pagecrm_crm {
+    position: relative;
+
+}
+
+.pagecrm_crm_img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.pagecrm_title_hero {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: var(--bs-white);
+    text-align: center;
+}
+
+.pagecrm_crm_img_box {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-image: url("/mobile-first/images/fon_mob_t.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*sticky block- pagecrm_crm*/
+.pagecrm_crm_call_box {
+    right: 0;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    width: 55px;
+    padding: 9px 12px;
+    border-radius: 20px 0 0 20px;
+    background: rgba(29, 1, 65, 0.6);
+    z-index: 996;
+    top: 185px;
+    overflow: hidden;
+}
+
+.pagecrm_sticky_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.pagecrm_search_item {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 40px;
+}
+
+/*section 3 block- pagecrm_control*/
+.pagecrm_control {
+    margin-top: 75px;
+}
+
+.pagecrm_title_sub2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--bs-white);
+
+}
+
+.pagecrm_system_box {
+    margin-top: 20px;
+
+}
+
+.pagecrm_system_items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    justify-content: center;
+
+
+}
+
+.pagecrm_system_text {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+
+}
+.pagecrm_system_item{
+    text-align: center;
+
+}
+.pagecrm_system_item img{
+    width: 100px;
+
+}
+/*section-4 pagecrm_function*/
