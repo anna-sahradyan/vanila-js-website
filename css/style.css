@@ -4,7 +4,6 @@
     src: url('/mobile-first/fonts/play-regular-webfont.woff2') format('woff2'),
     url('/mobile-first/fonts/play-regular-webfont.woff') format('woff'),
     url('/mobile-first/fonts/play-Regular.ttf') format('truetype');
-
     font-display: swap;
 }
 
@@ -14,13 +13,11 @@
     src: url('/mobile-first/fonts/play-regular-webfont.woff2') format('woff2'),
     url('/mobile-first/fonts/play-regular-webfont.woff') format('woff'),
     url('/mobile-first/fonts/play-Regular.ttf') format('truetype');
-
     font-display: swap;
 }
 
-
 html, body {
-    height: 100%;
+    min-height: 100vh;
 }
 
 html {
@@ -76,6 +73,28 @@ html {
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
+textarea {
+    border: none;
+    outline: none;
+    resize: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+select {
+    border: none;
+    outline: none;
+    background: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
 ul {
     list-style-type: none;
 }
@@ -112,6 +131,7 @@ body {
     background-size: cover;
     background-position: center;
     background-color: black;
+    overflow-x: hidden;
 }
 
 main, header {
@@ -122,7 +142,7 @@ main, header {
 
 main {
     flex-grow: 1;
-
+    min-height: 100vh;
 }
 
 
@@ -140,7 +160,7 @@ footer {
     padding-right: 10px;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    border: 1px solid blue;
 }
 
 /*main*/
